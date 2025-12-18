@@ -37,3 +37,22 @@ Our experiments yielded a clear and compelling conclusion:
 This project confirms that both SSL and Self-SL are highly effective strategies for building robust, data-efficient object detectors in specialized domains, providing a practical solution to the challenges of data scarcity in real-world machine learning projects.
 
 ---
+
+#### Final Performance Comparison
+![Final Comparison Table](https://raw.githubusercontent.com/shahariar365/Advanced-Computer-Vision-for-Fresh-Water-Fish-Detection-with-YOLOv11n-SSL-and-Self-SL-Model/main/images/Final%20Comparison%20table.png)
+
+#### Qualitative Prediction Results
+Below is a visual comparison of the predictions from our four main models on a sample test image. The SSL model (Pseudo Labeling) shows high confidence (0.95) and accurate localization, aligning with its superior quantitative performance.
+##### 1. YOLOv11n
+![Prediction Examples](https://raw.githubusercontent.com/shahariar365/Advanced-Computer-Vision-for-Fresh-Water-Fish-Detection-with-YOLOv11n-SSL-and-Self-SL-Model/main/images/YOLOv11n%20Output%20Image.jpg)
+
+#### 2. Semi-Supervised Learning (Pseudo Labeling)
+![Prediction Examples](https://raw.githubusercontent.com/shahariar365/Advanced-Computer-Vision-for-Fresh-Water-Fish-Detection-with-YOLOv11n-SSL-and-Self-SL-Model/main/images/SSL%20Pseudo%20Labeling%20Output.jpg)
+
+#### 3. Self-Supervised Learning (MoCo)
+![Prediction Examples](https://raw.githubusercontent.com/shahariar365/Advanced-Computer-Vision-for-Fresh-Water-Fish-Detection-with-YOLOv11n-SSL-and-Self-SL-Model/main/images/MoCo%20Output.jpg)
+
+#### 4. Self-Supervised Learning (SimCLR)
+![Prediction Examples](https://raw.githubusercontent.com/shahariar365/Advanced-Computer-Vision-for-Fresh-Water-Fish-Detection-with-YOLOv11n-SSL-and-Self-SL-Model/main/images/SimCLR%20Output.jpg)
+
+---
